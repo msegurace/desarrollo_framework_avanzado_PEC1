@@ -16,6 +16,7 @@ export class UserService {
   }
 
   register(user: UserDTO): Promise<UserDTO> {
+    console.log('REGISTER uSER:' + user.surname_1);
     return this.http.post<UserDTO>(this.urlBlogUocApi, user).toPromise();
   }
 

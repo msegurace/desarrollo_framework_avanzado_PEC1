@@ -20,15 +20,16 @@ export class PostService {
 
   constructor(private http: HttpClient) {
     this.controller = 'posts';
-    this.urlBlogUocApi = 'http://localhost:3000/' + this.controller;
+    //this.urlBlogUocApi = 'http://localhost:3000/' + this.controller;
+    this.urlBlogUocApi = this.controller;
   }
 
   getPosts(): Promise<PostDTO[]> {
     return this.http.get<PostDTO[]>(this.urlBlogUocApi).toPromise();
   }
 
-  getPostsByUserId() {
-    // TODO 22
+  getPostsByUserId(userId: string): Promise<PostDTO[]> {
+    return this.http.get<PostDTO[]>('/users/posts/' + userId).toPromise();
   }
 
   createPost(post: PostDTO): Promise<PostDTO> {

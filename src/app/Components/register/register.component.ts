@@ -84,10 +84,10 @@ export class RegisterComponent implements OnInit {
 
     this.registerForm = this.formBuilder.group({
       name: this.name,
-      surname1: this.surname_1,
-      surname2: this.surname_2,
+      surname_1: this.surname_1,
+      surname_2: this.surname_2,
       alias: this.alias,
-      birthDate: this.birth_date,
+      birth_date: this.birth_date,
       email: this.email,
       password: this.password,
     });
@@ -107,6 +107,8 @@ export class RegisterComponent implements OnInit {
     this.isValidForm = true;
     this.registerUser = this.registerForm.value;
 
+    //console.log('usuario: ' + this.registerForm.get('surname_1')?.value);
+    //console.log('usuario: ' + this.registerUser.showUser());
     try {
       await this.userService.register(this.registerUser);
       responseOK = true;
@@ -132,7 +134,7 @@ export class RegisterComponent implements OnInit {
     if (responseOK) {
       // Reset the form
       this.registerForm.reset();
-      // After reset form we set birthDate to today again (is an example)
+      // After reset form we set birth_date to today again (is an example)
       this.birth_date.setValue(formatDate(new Date(), 'yyyy-MM-dd', 'en'));
       this.router.navigateByUrl('home');
     }

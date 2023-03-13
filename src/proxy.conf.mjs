@@ -3,7 +3,10 @@ export default [
       context: [
           '/auth',
           '/users',
-          '/profiles'
+          '/profile',
+          '/user',
+          '/posts',
+          '/categories'
       ],
       target: 'http://localhost:3000',
       secure: false

@@ -51,7 +51,10 @@ export class LoginComponent implements OnInit {
     });
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.email.setValue('msegced@gmail.com');
+    this.password.setValue('msegced70');
+  }
 
   async login(): Promise<void> {
     let responseOK: boolean = false;

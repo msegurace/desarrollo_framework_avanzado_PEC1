@@ -65,5 +65,6 @@ export class CategoriesListComponent {
         this.sharedService.errorLog(errorResponse);
       }
     }
+    this.loadCategories();
   }
 }

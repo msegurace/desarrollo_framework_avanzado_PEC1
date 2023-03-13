@@ -14,13 +14,17 @@ export class CategoryService {
   private controller: string;
 
   constructor(private http: HttpClient) {
-    this.controller = 'categories';
-    this.urlBlogUocApi = 'http://localhost:3000/' + this.controller;
+    this.controller = '/categories';
+    //this.urlBlogUocApi = 'http://localhost:3000/' + this.controller;
+    this.urlBlogUocApi = this.controller;
   }
 
   getCategoriesByUserId(userId: string): Promise<CategoryDTO[]> {
-    return this.http
+    /*return this.http
       .get<CategoryDTO[]>('http://localhost:3000/users/categories/' + userId)
+      .toPromise();*/
+    return this.http
+      .get<CategoryDTO[]>('/users/categories/' + userId)
       .toPromise();
   }
 

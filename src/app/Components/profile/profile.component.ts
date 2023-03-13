@@ -82,17 +82,16 @@ export class ProfileComponent implements OnInit {
 
     this.profileForm = this.formBuilder.group({
       name: this.name,
-      surname1: this.surname_1,
-      surname2: this.surname_2,
+      surname_1: this.surname_1,
+      surname_2: this.surname_2,
       alias: this.alias,
-      birthDate: this.birth_date,
+      birth_date: this.birth_date,
       email: this.email,
       password: this.password,
     });
   }
 
   async ngOnInit(): Promise<void> {
-    /*
     let errorResponse: any;
 
     // load user data
@@ -124,11 +123,9 @@ export class ProfileComponent implements OnInit {
         this.sharedService.errorLog(errorResponse);
       }
     }
-    */
   }
 
   async updateUser(): Promise<void> {
-    /*
     let responseOK: boolean = false;
     this.isValidForm = false;
     let errorResponse: any;
@@ -159,6 +156,5 @@ export class ProfileComponent implements OnInit {
       responseOK,
       errorResponse
     );
-    */
   }
 }
