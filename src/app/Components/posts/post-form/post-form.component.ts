@@ -87,7 +87,7 @@ export class PostFormComponent implements OnInit {
 
         this.description.setValue(this.post.description);
 
-        this.post.categories.map((c) => this.post.categories);
+        this.post.categories?.map((c) => this.post.categories);
 
         this.postForm = this.formBuilder.group({
           title: this.title,

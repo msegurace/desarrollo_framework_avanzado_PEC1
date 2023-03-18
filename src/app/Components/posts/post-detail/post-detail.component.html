@@ -1,0 +1,17 @@
+<div class="post-card">
+    <div class="category">
+        <div *ngFor="let cat of post?.categories">
+            <label [ngStyle]="{'background-color':  cat.css_color }"> {{cat.title}} </label>
+        </div>
+    </div>
+    <p><strong> {{ post!.title }} </strong></p>
+    <p><span i18n>Description:</span> {{ post!.description}}</p>
+    <p><span i18n>Likes:</span> {{ post!.num_likes}}</p>
+    <p><span i18n>Dislikes:</span> {{ post!.num_dislikes}}</p>
+    <p><span i18n>Publication date:</span> {{ post!.publication_date | formatDate:3}}</p>
+    <p><span i18n>Published by:</span> {{ post!.userAlias}}</p>
+    <div class="post-buttons" *ngIf="showButtons">
+        <button (click)="likePush($event)" i18n>Like</button>
+        <button (click)="dislikePush($event)" i18n>dislike</button>
+    </div>
+</div>

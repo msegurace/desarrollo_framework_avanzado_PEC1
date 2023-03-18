@@ -1,11 +1,19 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { Observable, Subject } from 'rxjs';
 import { HeaderMenus } from 'src/app/Models/header-menus.dto';
 import { PostDTO } from 'src/app/Models/post.dto';
 import { HeaderMenusService } from 'src/app/Services/header-menus.service';
 import { LocalStorageService } from 'src/app/Services/local-storage.service';
 import { PostService } from 'src/app/Services/post.service';
 import { SharedService } from 'src/app/Services/shared.service';
+import {
+  debounceTime,
+  switchMap,
+  distinctUntilChanged,
+  startWith,
+  share,
+} from 'rxjs/operators';
 
 @Component({
   selector: 'app-home',
@@ -13,8 +21,12 @@ import { SharedService } from 'src/app/Services/shared.service';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent {
-  posts!: PostDTO[];
+  posts$?: Observable<PostDTO[]>;
   showButtons: boolean;
+  public searchString: string = '';
+
+  private searchSubject: Subject<string> = new Subject();
+
   constructor(
     private postService: PostService,
     private localStorageService: LocalStorageService,
@@ -23,7 +35,6 @@ export class HomeComponent {
     private headerMenusService: HeaderMenusService
   ) {
     this.showButtons = false;
-    this.loadPosts();
   }
 
   ngOnInit(): void {
@@ -34,15 +45,25 @@ export class HomeComponent {
         }
       }
     );
+    this.loadPosts();
   }
   private async loadPosts(): Promise<void> {
     let errorResponse: any;
+    const userId = this.localStorageService.get('user_id');
+    if (userId) {
+      this.showButtons = true;
+    }
     try {
-      const userId = this.localStorageService.get('user_id');
-      if (userId) {
-        this.showButtons = true;
-        try {
-          await this.postService.getPosts(userId)
+      //this.posts = await this.postService.getPosts();
+      this.posts$ = this.searchSubject.pipe(
+        startWith(<string>this.searchString),
+        debounceTime(300),
+        distinctUntilChanged(),
+        switchMap((query) =>
+          this.postService.getPostsWithQuery(this.searchString)
+        ),
+        share()
+      );
     } catch (error: any) {
       errorResponse = error.error;
       this.sharedService.errorLog(errorResponse);
@@ -69,5 +90,9 @@ export class HomeComponent {
       errorResponse = error.error;
       this.sharedService.errorLog(errorResponse);
     }
+  }
+
+  search() {
+    this.searchSubject.next(this.searchString);
   }
 }

@@ -18,8 +18,17 @@ export class HeaderComponent implements OnInit {
     private headerMenusService: HeaderMenusService,
     private localStorageService: LocalStorageService
   ) {
-    this.showAuthSection = false;
-    this.showNoAuthSection = true;
+    // this.showAuthSection = false;
+    // this.showNoAuthSection = true;
+    this.showAuthSection = this.localStorageService.get('user_id')
+      ? true
+      : false;
+    this.showNoAuthSection = !this.showAuthSection;
+    const headerInfo: HeaderMenus = {
+      showAuthSection: this.showAuthSection,
+      showNoAuthSection: this.showNoAuthSection,
+    };
+    this.headerMenusService.headerManagement.next(headerInfo);
   }
 
   ngOnInit(): void {
@@ -70,5 +79,9 @@ export class HeaderComponent implements OnInit {
     this.headerMenusService.headerManagement.next(headerInfo);
 
     this.router.navigateByUrl('home');
+  }
+
+  dashboard(): void {
+    this.router.navigateByUrl('dashboard');
   }
 }

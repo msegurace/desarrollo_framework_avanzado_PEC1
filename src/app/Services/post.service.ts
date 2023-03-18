@@ -1,6 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { NONE_TYPE } from '@angular/compiler';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
+import { filter, map } from 'rxjs/operators';
 import { PostDTO } from '../Models/post.dto';
 
 interface updateResponse {
@@ -20,12 +22,25 @@ export class PostService {
 
   constructor(private http: HttpClient) {
     this.controller = 'posts';
-    //this.urlBlogUocApi = 'http://localhost:3000/' + this.controller;
-    this.urlBlogUocApi = this.controller;
+    this.urlBlogUocApi = 'http://localhost:3000/' + this.controller;
+    //this.urlBlogUocApi = this.controller;
   }
 
   getPosts(): Promise<PostDTO[]> {
     return this.http.get<PostDTO[]>(this.urlBlogUocApi).toPromise();
+  }
+
+  getPostsWithQuery(query: string): Observable<PostDTO[]> {
+    const posts = this.http.get<PostDTO[]>(this.urlBlogUocApi);
+    let a = posts.pipe(
+      map((posts) =>
+        posts.filter((post) =>
+          post.title.toLowerCase().includes(query.toLowerCase())
+        )
+      )
+    );
+    a.subscribe((data) => console.log(data));
+    return a;
   }
 
   getPostsByUserId(userId: string): Promise<PostDTO[]> {

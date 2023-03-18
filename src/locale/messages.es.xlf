@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template" target="es-ES">
+    <body>
+      <trans-unit id="2395801938408563555" datatype="html">
+        <source>Categories List</source>
+        <target>Lista de Categorías</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/categories/categories-list/categories-list.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8040881171107393560" datatype="html">
+        <source>ID</source>
+        <target>Identificación</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/categories/categories-list/categories-list.component.html</context>
+          <context context-type="linenumber">8,7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/posts-list/posts-list.component.html</context>
+          <context context-type="linenumber">9,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8979531771736981288" datatype="html">
+        <source>TITLE</source>
+        <target>TÍTULO</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/categories/categories-list/categories-list.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/posts-list/posts-list.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2152256168419071880" datatype="html">
+        <source>DESCRIPTION</source>
+        <target>DESCRIPCIÓN</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/categories/categories-list/categories-list.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/posts-list/posts-list.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3831371468454656882" datatype="html">
+        <source>CSS COLOR</source>
+        <target>COLOR CSS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/categories/categories-list/categories-list.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5445502943247910070" datatype="html">
+        <source>ACTIONS</source>
+        <target>ACCIONES</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/categories/categories-list/categories-list.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="507381471408980109" datatype="html">
+        <source>Category form</source>
+        <target>Formulario para Categorías</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/categories/category-form/category-form.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2517309683610083249" datatype="html">
+        <source>Title:</source>
+        <target>Título</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/categories/category-form/category-form.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-form/post-form.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5642836248241530789" datatype="html">
+        <source>Title is required</source>
+        <target>El título es un campo obligatorio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/categories/category-form/category-form.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-form/post-form.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2685109880552726690" datatype="html">
+        <source> Title can be max 55 characters long. </source>
+        <target>El título no puede ser mayor de 55 caracteres</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/categories/category-form/category-form.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-form/post-form.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6996799422725544865" datatype="html">
+        <source>Description:</source>
+        <target>Descripción</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/categories/category-form/category-form.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-form/post-form.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6240684629381435026" datatype="html">
+        <source>Description is required</source>
+        <target>La descripción es un campo obligatorio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/categories/category-form/category-form.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-form/post-form.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="282237549690619793" datatype="html">
+        <source> Description can be max 255 characters long. </source>
+        <target>La descripción no puede tener más de 255 caracteres.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/categories/category-form/category-form.component.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-form/post-form.component.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3259544020317455491" datatype="html">
+        <source>Css color:</source>
+        <target>Color CSS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/categories/category-form/category-form.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7322265090165796321" datatype="html">
+        <source>Css color is required</source>
+        <target>El color CSS es requerido.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/categories/category-form/category-form.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5670739211394710264" datatype="html">
+        <source> Css color can be max 7 characters long. </source>
+        <target>El color CSS no puede tener más de 7 caracteres.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/categories/category-form/category-form.component.html</context>
+          <context context-type="linenumber">46,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6671956963490165282" datatype="html">
+        <source>SAVE</source>
+        <target>GUARDAR</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/categories/category-form/category-form.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6570363013146073520" datatype="html">
+        <source>Dashboard</source>
+        <target>Panel de control</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/header/header.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/header/header.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8487745128412927212" datatype="html">
+        <source>Total Likes: <x id="INTERPOLATION" equiv-text="{{ totalLikes }}"/></source>
+        <target>Total de Me gusta: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7208401279505173773" datatype="html">
+        <source>Total Dislikes: <x id="INTERPOLATION" equiv-text="{{ totalDisLikes }}"/></source>
+        <target>Total No me gusta: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4890669021901832114" datatype="html">
+        <source>footer works!</source>
+        <target>Pie de página correcto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/footer/footer.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4799852048043744457" datatype="html">
+        <source>header works!</source>
+        <target>Encabezado correcto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/header/header.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2821179408673282599" datatype="html">
+        <source>Home</source>
+        <target>Incio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/header/header.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/header/header.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2454050363478003966" datatype="html">
+        <source>Login</source>
+        <target>Ingresar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/header/header.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/login/login.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/login/login.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3301086086650990787" datatype="html">
+        <source>Register</source>
+        <target>Registarse</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/header/header.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7471025110212450154" datatype="html">
+        <source>Admin posts</source>
+        <target>Administrar entradas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/header/header.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6208309042428471688" datatype="html">
+        <source>Admin categories</source>
+        <target>Administrar Categorías</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/header/header.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4915431133669985304" datatype="html">
+        <source>Profile</source>
+        <target>Perfil</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/header/header.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3797778920049399855" datatype="html">
+        <source>Logout</source>
+        <target>Desconectarse</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/header/header.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="333224786169433454" datatype="html">
+        <source> We have found <x id="INTERPOLATION" equiv-text="{{(posts$ | async )?.length}}"/> posts! </source>
+        <target> Se han encontrado</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/home/home.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4374589633190318100" datatype="html">
+        <source>Email: </source>
+        <target>Correo electrónico: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/login/login.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8281836453106783702" datatype="html">
+        <source>Password: </source>
+        <target>Contraseña: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/login/login.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8552587679160911578" datatype="html">
+        <source>Email is required</source>
+        <target>El correo electrónico es un campo obligatorio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/login/login.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="205044832662301680" datatype="html">
+        <source>Password is required</source>
+        <target>La contraseña es un campo obligatorio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/login/login.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8261696800979662800" datatype="html">
+        <source>Password must be greater or equal to 8 characters</source>
+        <target>La contraseña ha de ser mayor o igual a 8 caracteres</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/login/login.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6330346718152424791" datatype="html">
+        <source>Password must be less or equal to 16 characters</source>
+        <target>La contraseña ha de ser menor o igual que 16 caracteres</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/login/login.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6276545049878546664" datatype="html">
+        <source>Description: <x id="INTERPOLATION" equiv-text="{{ post!.description}}"/></source>
+        <target>Descripción</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-detail/post-detail.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3827034701768283554" datatype="html">
+        <source>Likes: <x id="INTERPOLATION" equiv-text="{{ post!.num_likes}}"/></source>
+        <target>Me gustan: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-detail/post-detail.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8237404968879932720" datatype="html">
+        <source>Dislikes: <x id="INTERPOLATION" equiv-text="{{ post!.num_dislikes}}"/></source>
+        <target>No me gustan: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-detail/post-detail.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1932375014935240401" datatype="html">
+        <source>Publication date: <x id="INTERPOLATION" equiv-text="{{ post!.publication_date | formatDate:3}}"/></source>
+        <target>Fecha de publicación: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-detail/post-detail.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8854214196014040235" datatype="html">
+        <source>Published by: <x id="INTERPOLATION" equiv-text="{{ post!.userAlias}}"/></source>
+        <target>Publicado por: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-detail/post-detail.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6218566719637714212" datatype="html">
+        <source>Like</source>
+        <target>Me gusta</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-detail/post-detail.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7995001234220569836" datatype="html">
+        <source>dislike</source>
+        <target>No me gusta</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-detail/post-detail.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9110654233774643479" datatype="html">
+        <source>Post form</source>
+        <target>Formulario de Entradas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-form/post-form.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3201895741083360095" datatype="html">
+        <source>Publication date: </source>
+        <target>Fecha de publicación</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-form/post-form.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3030414344128681791" datatype="html">
+        <source>Publication date is required</source>
+        <target>La fecha de publicación es un campo obligatorio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-form/post-form.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1370537846415473089" datatype="html">
+        <source>Categories:</source>
+        <target>Categorías</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-form/post-form.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5719140469689039457" datatype="html">
+        <source>Categories is required</source>
+        <target>La categoría es un campo obligatorio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-form/post-form.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="935187492052582731" datatype="html">
+        <source>Submit</source>
+        <target>Enviar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-form/post-form.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3473614521515299250" datatype="html">
+        <source>Post List</source>
+        <target>Lista de entradas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/posts-list/posts-list.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8579420391945059597" datatype="html">
+        <source>NUM_LIKES</source>
+        <target>NUMERO_MEGUSTA</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/posts-list/posts-list.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1844695249747320167" datatype="html">
+        <source>NUM_DISLIKES</source>
+        <target>NUMERO_NO_ME_GUSTA</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/posts-list/posts-list.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="402785015655073812" datatype="html">
+        <source>Name: </source>
+        <target>Nombre: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3833692663709091545" datatype="html">
+        <source>Name is required</source>
+        <target>Nombre es un campo obligatorio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2277829967304482768" datatype="html">
+        <source> Name must be at least 5 characters long. </source>
+        <target> Nombre debe tener al menos 5 caracteres.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">15,16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5764360967324698002" datatype="html">
+        <source> Name can be max 25 characters long. </source>
+        <target> Nombre no debe ser mayor de 25 caracteres. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8719483914006691262" datatype="html">
+        <source>surname_1: </source>
+        <target>apellido 1: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5249423929245052356" datatype="html">
+        <source>surname_1 is required</source>
+        <target>apellido 1 es un campo obligatorio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7641857983553574073" datatype="html">
+        <source> surname_1 must be at least 5 characters long. </source>
+        <target> apellido 1 debe tener al menos 5 caracteres</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">28,29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6906849737840750993" datatype="html">
+        <source> surname_1 can be max 25 characters long. </source>
+        <target> apellido 1 no puede ser mayor de 25 caracteres</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1695769002113310469" datatype="html">
+        <source>surname_2: </source>
+        <target>apellido_2: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9012644657764836878" datatype="html">
+        <source> surname_2 must be at least 5 characters long. </source>
+        <target> apellido_2 debe tener al menos 5 caracteres</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8301070819689100956" datatype="html">
+        <source> surname_2 can be max 25 characters long. </source>
+        <target> apellido_2 debe tener como máximo 25 caracteres.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">43,44</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3469990809644824085" datatype="html">
+        <source>Alias: </source>
+        <target>Alias: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4998322270944063795" datatype="html">
+        <source>Alias is required</source>
+        <target>Alias es un campo obligatorio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3320635789186293681" datatype="html">
+        <source> Alias must be at least 5 characters long. </source>
+        <target> Alias debe tener al menos 5 caracteres.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">53,54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">52,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5125090668690239817" datatype="html">
+        <source> Alias can be max 25 characters long. </source>
+        <target> Alias no puede ser mayor de 25 caracteres. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">56,57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">55,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="174764789409666996" datatype="html">
+        <source>Birth date: </source>
+        <target>Fecha de nacimiento: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3014134324708057478" datatype="html">
+        <source>Birth date is required</source>
+        <target>Este campo es requerido</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3308506636387673034" datatype="html">
+        <source>Email not a valid format.</source>
+        <target>El correo electrónico no tiene un formato válido.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8472668262719268321" datatype="html">
+        <source> Password must be at least 8 characters long. </source>
+        <target> La contraseña ha de ser mayor de 8 caracteres. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">82,83</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">81,82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5181031365346749796" datatype="html">
+        <source> Password must be less or equal to 16 characters long. </source>
+        <target> La contraseña no puede ser mayor de 16 caracteres. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">85,86</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">84,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1349763489797682899" datatype="html">
+        <source>Update user</source>
+        <target>Actualizar usuario</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/profile/profile.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1552707280301129490" datatype="html">
+        <source>Join now</source>
+        <target>Inscribirse ahora</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/register/register.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+       <trans-unit id="841311519047609428" datatype="html">
+        <source>DELETE</source>
+        <target>BORRAR</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/categories/categories-list/categories-list.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+       <trans-unit id="8287755284982337565" datatype="html">
+        <source>UPDATE</source>
+        <target>ACTUALIZAR</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/categories/categories-list/categories-list.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1830981537263188397" datatype="html">
+        <source>ADD</source>
+        <target>AÑADIR</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/categories/categories-list/categories-list.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+       <trans-unit id="1627281964975977403" datatype="html">
+        <source>Likes:</source>
+        <target>Me gusta:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-detail/post-detail.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8494205866905109020" datatype="html">
+        <source>Dislikes:</source>
+        <target>No me gusta:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-detail/post-detail.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1190323216454943572" datatype="html">
+        <source>Publication date:</source>
+        <target>Fecha de publicación:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-detail/post-detail.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7787598843261794819" datatype="html">
+        <source>Published by:</source>
+        <target>Publicado por:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/posts/post-detail/post-detail.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+       <trans-unit id="4875180780729694869" datatype="html">
+        <source>Total Likes:</source>
+        <target>Total Me gusta:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8884052871340723824" datatype="html">
+        <source>Total Dislikes:</source>
+        <target>Publicado No me gusta:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/Components/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

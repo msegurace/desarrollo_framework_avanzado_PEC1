@@ -1,17 +1,19 @@
-<p>header works!</p>
+<p i18n>header works!</p>
 
 <!-- NO AUTH REQUIRED -->
 <div *ngIf="showNoAuthSection">
-  <button (click)="home()">Home</button>
-  <button (click)="login()">Login</button>
-  <button (click)="register()">Register</button>
+  <button (click)="home()" i18n>Home</button>
+  <button (click)="dashboard()" i18n>Dashboard</button>
+  <button (click)="login()" i18n>Login</button>
+  <button (click)="register()" i18n>Register</button>
 </div>
 
 <!-- AUTH REQUIRED -->
 <div *ngIf="showAuthSection">
-  <button (click)="home()">Home</button>
-  <button (click)="adminPosts()">Admin posts</button>
-  <button (click)="adminCategories()">Admin categories</button>
-  <button (click)="profile()">Profile</button>
-  <button (click)="logout()">Logout</button>
+  <button (click)="home()" i18n>Home</button>
+  <button (click)="dashboard()" i18n>Dashboard</button>
+  <button (click)="adminPosts()" i18n>Admin posts</button>
+  <button (click)="adminCategories()" i18n>Admin categories</button>
+  <button (click)="profile()" i18n>Profile</button>
+  <button (click)="logout()" i18n>Logout</button>
 </div>

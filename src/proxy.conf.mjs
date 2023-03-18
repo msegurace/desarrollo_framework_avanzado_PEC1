@@ -9,6 +9,8 @@ export default [
           '/categories'
       ],
       target: 'http://localhost:3000',
+      pathRewrite: { '^/en-US' : ''},
+      pathRewrite: { '^/es-ES' : ''},
       secure: false
     }
   ];

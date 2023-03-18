@@ -1,6 +1,6 @@
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
-import { NgModule } from '@angular/core';
-import { ReactiveFormsModule } from '@angular/forms';
+import { NgModule, LOCALE_ID } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -16,7 +16,12 @@ import { ProfileComponent } from './Components/profile/profile.component';
 import { RegisterComponent } from './Components/register/register.component';
 import { AuthInterceptorService } from './Services/auth-interceptor.service';
 import { FormatDatePipe } from './Pipes/format-date.pipe';
+import { PostDetailComponent } from './Components/posts/post-detail/post-detail.component';
+import { registerLocaleData } from '@angular/common';
+import localeEs from '@angular/common/locales/es';
+import { DashboardComponent } from './Components/dashboard/dashboard.component';
 
+registerLocaleData(localeEs);
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,14 +36,21 @@ import { FormatDatePipe } from './Pipes/format-date.pipe';
     CategoryFormComponent,
     PostFormComponent,
     FormatDatePipe,
+    PostDetailComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
     HttpClientModule,
+    FormsModule,
   ],
   providers: [
+    {
+      provide: LOCALE_ID,
+      useValue: 'es-ES',
+    },
     {
       provide: HTTP_INTERCEPTORS,
       useClass: AuthInterceptorService,

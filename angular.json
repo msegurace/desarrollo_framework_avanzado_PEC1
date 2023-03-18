@@ -4,6 +4,10 @@
   "newProjectRoot": "projects",
   "projects": {
     "blog-uoc-project-front": {
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": { "es-ES": "src/locale/messages.es.xlf" }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,6 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "localize": ["es-ES"],
             "outputPath": "dist/blog-uoc-project-front",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -70,8 +75,7 @@
               "browserTarget": "blog-uoc-project-front:build:production"
             },
             "development": {
-              "browserTarget": "blog-uoc-project-front:build:development",
-              "proxyConfig": "src/proxy.conf.mjs"
+              "browserTarget": "blog-uoc-project-front:build:development"
             }
           },
           "defaultConfiguration": "development"

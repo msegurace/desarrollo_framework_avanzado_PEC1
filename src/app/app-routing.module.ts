@@ -9,6 +9,8 @@ import { PostsListComponent } from './Components/posts/posts-list/posts-list.com
 import { ProfileComponent } from './Components/profile/profile.component';
 import { RegisterComponent } from './Components/register/register.component';
 import { AuthGuard } from './Guards/auth.guard';
+import { PostDetailComponent } from './Components/posts/post-detail/post-detail.component';
+import { DashboardComponent } from './Components/dashboard/dashboard.component';
 
 const routes: Routes = [
   {
@@ -33,6 +35,11 @@ const routes: Routes = [
     canActivate: [AuthGuard],
   },
   {
+    path: 'user/post-detail:id',
+    component: PostDetailComponent,
+    canActivate: [AuthGuard],
+  },
+  {
     path: 'user/post/:id',
     component: PostFormComponent,
     canActivate: [AuthGuard],
@@ -51,6 +58,10 @@ const routes: Routes = [
     path: 'profile',
     component: ProfileComponent,
     canActivate: [AuthGuard],
+  },
+  {
+    path: 'dashboard',
+    component: DashboardComponent,
   },
 ];
 

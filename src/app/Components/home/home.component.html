@@ -1,4 +1,16 @@
-<h1>Posts</h1>
 <div>
+    <div>
+        <input type="text" placeholder="Search posts" i18n-[placeholder] name="searchBox" [(ngModel)]="searchString"
+            (keyup)="search()" aria-label="search" />
+    </div>
 
-</div>
+    <h2 i18n>
+        We have found {{(posts$ | async )?.length}} posts!
+    </h2>
+
+    <div class="posts-container" *ngFor="let post of posts$ | async;">
+        <div *ngIf="post">
+            <app-post-detail [post]="post" (changeObjectLike)="like($event)"
+                (changeObjectDislike)="dislike($event)"></app-post-detail>
+        </div>
+    </div>

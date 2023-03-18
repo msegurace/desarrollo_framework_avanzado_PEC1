@@ -7,7 +7,7 @@ export class PostDTO {
   num_likes: number;
   num_dislikes!: number;
   publication_date: Date;
-  categories!: CategoryDTO[];
+  categories?: CategoryDTO[];
   userId!: string;
   userAlias!: string;
 
